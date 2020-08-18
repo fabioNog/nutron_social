@@ -46,8 +46,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const APP_ROUTES = [
-    { path: 'bemvindo', component: _bem_vindo_bem_vindo_component__WEBPACK_IMPORTED_MODULE_3__["BemVindoComponent"] },
-    { path: '', component: _visao_visao_component__WEBPACK_IMPORTED_MODULE_2__["VisaoComponent"] },
+    { path: 'visao', component: _visao_visao_component__WEBPACK_IMPORTED_MODULE_2__["VisaoComponent"] },
+    { path: '', component: _bem_vindo_bem_vindo_component__WEBPACK_IMPORTED_MODULE_3__["BemVindoComponent"] },
 ];
 class AppRoutingModule {
 }
@@ -88,7 +88,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 7, vars: 0, consts: [["routerLink", "/bemvindo", "RouterLinkActive", "active"], ["routerLink", "/"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 7, vars: 0, consts: [["routerLink", "/", "RouterLinkActive", "active"], ["routerLink", "/visao"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 0);

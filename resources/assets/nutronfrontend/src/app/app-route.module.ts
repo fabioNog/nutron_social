@@ -8,8 +8,8 @@ import { BemVindoComponent } from "./bem-vindo/bem-vindo.component";
 import { ModuleWithProviders } from '@angular/core';
 
 const APP_ROUTES: Routes = [
-    {path: 'bemvindo',component: BemVindoComponent},
-    {path: '',component: VisaoComponent},    
+    {path: 'visao',component: VisaoComponent},
+    {path: '',component: BemVindoComponent},    
 ]
 
 @NgModule({
