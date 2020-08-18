@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
+        <base href="/">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -80,7 +80,7 @@
             @endif
 
             <div class="content">
-            <app-root></app-root>
+                <app-root></app-root>
                 <script src="{{ asset('js/runtime.js')}}" defer></script>
                 <script src="{{ asset('js/polyfills.js')}}" defer></script>
                 <script src="{{ asset('js/styles.js')}}" defer></script>
